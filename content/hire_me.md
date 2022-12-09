@@ -16,7 +16,7 @@ Things I can do for you:
 
 Given enough time, I am able to get familiar with whatever technology you are using. There is a chance I am already acquainted with your tech stack, since in the past I have worked with the .NET, Java, Rust, Erlang and NPM ecosystems.
 
-When evaluating new projects, I have a strong preference for statically typed languages, because they align better with the way I think. Also, I prefer languages with good IDE support, because they make refactoring and maintenance much easier.
+When evaluating new projects, I have a strong preference for statically typed languages, because they align better with my way of thinking. Also, I prefer languages with good IDE support, because they make refactoring and maintenance much easier.
 
 #### Testimonials
 
