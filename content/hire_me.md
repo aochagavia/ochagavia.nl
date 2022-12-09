@@ -36,4 +36,4 @@ _See more testimonials on my [LinkedIn profile](https://www.linkedin.com/in/adol
 * __Working across time zones__. I am open to collaborating with colleagues in different time zones, if the kind of work is compatible with asynchronous communication and we make sure to sync through a video call once in a while.
 * __Teamwork vs. standalone__. Depending on your needs, I can work in a team or by myself.
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
-* <a href="files/NLdigital Terms - EN.pdf">Terms and conditions</a> (also available in <a href="files/NLdigital Voorwaarden - NL.pdf">Dutch</a>).
+* <a href="/files/NLdigital Terms - EN.pdf">Terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>).
