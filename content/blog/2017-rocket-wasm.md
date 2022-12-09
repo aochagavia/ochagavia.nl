@@ -30,7 +30,7 @@ The controls are:
 * Space: shoot
 
 <canvas id="canvas" height="300px" style="width: 100%;"></canvas>
-<script src="js/embedded-rocket.js"></script>
+<script src="/js/embedded-rocket.js"></script>
 
 ## An MVP
 
