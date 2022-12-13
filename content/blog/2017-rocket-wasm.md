@@ -21,7 +21,7 @@ was barely touched at all.
 ### TLDR
 
 Here is the [source code][rocket-wasm]. Also, you can play the game in the canvas
-below or [on a dedicated tab][rocket-wasm-online].
+below.
 
 The controls are:
 
@@ -285,4 +285,3 @@ Comment on [reddit] or [HN]!
 [HN]: https://news.ycombinator.com/item?id=15843064
 [rocket-piston]: https://github.com/aochagavia/rocket
 [rocket-wasm]: https://github.com/aochagavia/rocket_wasm
-[rocket-wasm-online]: https://aochagavia.github.io/rocket_wasm/
