@@ -22,6 +22,11 @@ Note that, while I mention some of the steps that led me to the final solution, 
 right way to model the problem involved lots of trial and error. The real process was messier than
 this blog post may suggest.
 
+By the way, if you want to try this out in your own machine, you can clone [the
+repo](https://github.com/aochagavia/optimization-experiment) and `cargo run` it (though you will
+need to install Z3 first). You can also check out the [Z3
+Playground](https://jfmc.github.io/z3-play/), which includes a tutorial and an embedded Z3 REPL.
+
 ## Wait... What is Z3?
 
 From the official [guide](https://github.com/Z3Prover/doc/blob/d373368a9f1feb23c09e5450bb71ba070c1562a7/riselive/courses/guide.htm#L16):
@@ -96,7 +101,7 @@ Z3, driven by my little Rust program.
 
 ## Modeling the problem, part 1
 
-As a recap, we have `i` students, `j` teachers and `k` assignments. The first
+As a recap, we have `i` teachers, `j` students and `k` assignments. The first
 thing we need to do is to to specify which output we expect from Z3. We want to
 know, for each student and assignment, the teacher that is designated as their
 supervisor. If you were doing Rust, you could define this as:
@@ -110,7 +115,7 @@ struct Solution {
 }
 ```
 
-Here, student index ranges from `0` to `i`, teacher index from `0` to `j` and
+Here, teacher index ranges from `0` to `i`, student index from `0` to `j` and
 assignment index from `0` to `k`. So if we want to know the designated teacher
 for student `2` during assignment `0`, we can write
 `solution.designated_teachers[&(2, 0)];`.
@@ -255,4 +260,4 @@ methods. Would the Gurobi solver be able to find an optimal solution in normal t
 What about randomized approaches like simulated annealing? Unfortunately, my time is
 limited and I feel I have already devoted too much time to this.
 If you somehow get inspired to continue where I left off, please let me know! You can
-find my email by looking at the git history of any of my repositories.
+find my email [here]({{< ref "/hire_me" >}}).
