@@ -40,7 +40,7 @@ different language, but with a little effort I found a way to express the same i
 than that I don't remember any other issues related to the language.
 
 When porting the library, I was hoping it would implement the features we needed, because that would
-save us a lot of time researching the intricacies of the protocol. After one or two weeks, however,
+save me a lot of time researching the intricacies of the protocol. After one or two weeks, however,
 it became clear that we needed our own from-scratch implementation. The deal-breaker was the lack of
 support for MySQL authentication, which was necessary for our use case.
 
