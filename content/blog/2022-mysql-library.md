@@ -125,3 +125,5 @@ bit](https://github.com/netty/netty/issues/12071).
 Also, the [Calcite](https://calcite.apache.org/) library made it possible to emulate a SQL database, so I could focus on the
 protocol stuff. It was difficult to use, probably because of the complex domain it tackles, but
 without it things would have been even more difficult!
+
+_[Discuss](https://news.ycombinator.com/item?id=34094471) on Hacker News_
