@@ -78,7 +78,7 @@ cases I had missed, sometimes because of ambiguities in the specification.
 For instance, one of the clients saw intermittent failures when authenticating. Upon further
 investigation, I tracked the problem down to the incorrect generation of a random salt, which I
 assumed to consist of arbitrary bytes, but in reality was meant to contain values in the range [1,
-35] and [37, 127] (I wonder why number 36 was forbidden). This was not mentioned
+35] and [37, 127] (I wonder why number 36 was forbidden[^1]). This was not mentioned
 anywhere in the documentation, but can be seen in [MySQL's source
 code](https://github.com/mysql/mysql-server/blob/3290a66c89eb1625a7058e0ef732432b6952b435/mysys/crypt_genhash_impl.cc#L421).
 
@@ -127,3 +127,7 @@ protocol stuff. It was difficult to use, probably because of the complex domain 
 without it things would have been even more difficult!
 
 _[Discuss](https://news.ycombinator.com/item?id=34094471) on Hacker News_
+
+[^1]: HN user sanxiyn [pointed out](https://news.ycombinator.com/item?id=34103299) that this is
+    probably because MySQL used Modular Crypt Format, in which the salt must be terminated with the
+    NUL byte or the dollar sign (36 in ASCII).
