@@ -218,6 +218,7 @@ Input size (bytes) | Baseline (pure Rust) | Elixir | Hybrid
 8000 | 5.85 | 225.4 (39x slower) | 8 (1.4x slower)
 16000 | 11.8 | 664 (56x slower) | 15.8 (1.3x slower)
 
+_[Discuss](https://news.ycombinator.com/item?id=34246498) on Hacker News_
 
 [^1]: [They are hiring](https://seamly.ai/en/careers/) at the time of this writing and are nice
     folks, just saying...
