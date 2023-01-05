@@ -132,8 +132,8 @@ Using [lipsum.com](https://lipsum.com), I generated lorem ipsum strings of 500, 
 would expect the run time to approximately double too. This led to two discoveries:
 
 1. Complexity was indeed non-linear (see the results table at the end of the article, or the
-   [exponential fit on
-   WolframAlpha](https://www.wolframalpha.com/input?i=exponential+fit+%7B7%2C+15%2C+34%2C+84%2C+223%2C+660%7D))
+   [quadratic fit on
+   WolframAlpha](https://www.wolframalpha.com/input?i=quadratic+fit+%7B%7B500%2C+7%7D%2C+%7B1000%2C+15%7D%2C+%7B2000%2C+34%7D%2C+%7B4000%2C+84%7D%2C+%7B8000%2C+223%7D%2C+%7B16000%2C+660%7D%7D))
 2. Performance was poor, taking more than 200ms to chunk a 4000 byte string
 
 Out of curiosity, I removed the word-breaking part of the code, and saw that complexity became
