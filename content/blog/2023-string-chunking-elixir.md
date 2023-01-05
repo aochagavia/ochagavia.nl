@@ -118,12 +118,13 @@ end
 ```
 
 During development, I noticed that the
-[unicode_string](https://hexdocs.pm/unicode_string/readme.html) library raises an exception when
-trying to get the next word if there is invalid UTF-8 anywhere in the string. That seemed weird to
-me, because I would expect the library to only scan the part of the string that is relevant to get
-the next word. If the library is checking the whole string for UTF-8 validity every time you want to
-get the length of the next word, that will lead to non-linear algorithmic complexity. Time to do
-some benchmarks.
+[unicode_string](https://hexdocs.pm/unicode_string/readme.html) library [raises an
+exception](https://github.com/elixir-unicode/unicode_string/issues/3) when trying to get the next
+word if there is invalid UTF-8 anywhere in the string. That seemed weird to me, because I would
+expect the library to only scan the part of the string that is relevant to get the next word. If the
+library is checking the whole string for UTF-8 validity every time you want to get the length of the
+next word, that will lead to non-linear algorithmic complexity (we are calling the function inside a
+loop, and the function has `O(n)` complexity). Time to do some benchmarks.
 
 ### First round of benchmarking
 
@@ -147,10 +148,16 @@ segmentation myself.
 
 Since I wasn't able to find another library in the Elixir ecosystem that provided word breaking out
 of the box, I decided to create a prototype in Rust, where there are a bunch of unicode-related
-libraries available. Nowadays, creating Rust-based NIFs is pretty straightforward thanks to
-[Rustler](https://github.com/rusterlium/rustler), with companies such as Discord [happily using
-it](https://discord.com/blog/using-rust-to-scale-elixir-for-11-million-concurrent-users), so it felt
-like a safe choice.
+libraries available.
+
+If you are not into Erlang or Elixir, you might be wondering: how is it possible to call Rust code
+from Elixir? The Erlang VM provides a way to run native code, called [Native Implemented
+Functions](https://www.erlang.org/doc/tutorial/nif.html) (NIF for short). In the past, it has been
+used mostly to call C functions, but Rust has recently become quite popular too (see, for instance,
+[Discord's
+experience](https://discord.com/blog/using-rust-to-scale-elixir-for-11-million-concurrent-users)).
+Creating Rust-based NIFs is pretty straightforward thanks to
+[Rustler](https://github.com/rusterlium/rustler).
 
 Originally, I
 [reimplemented](https://github.com/aochagavia/elixir_string_chunking_experiment/blob/cd98104d941963da4efc48db28a5fbd3e70bd9d6/native/string_chunker_helper/src/rust_chunker.rs)
