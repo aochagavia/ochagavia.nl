@@ -430,4 +430,5 @@ final code I wrote that might peek your interest:
   end for the sake brevity.
 
 That's all, folks! And if you have any comments, suggestions, ideas, etc. you want to share, feel
-free to contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page) or to [discuss](#todo) on HN.
+free to contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page) or to
+[discuss](https://news.ycombinator.com/item?id=34678121) on HN.
