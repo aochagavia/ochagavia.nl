@@ -420,7 +420,7 @@ final code I wrote that might peek your interest:
   API is such that you can upload the layer blobs you want, and upload the image configuration and
   manifest later.
 * When creating derived images, we do not need to access the contents of the base image's layers,
-  only to their hashes. When pushing to the registry, you can reference layers from other images by
+  only their hashes. When pushing to the registry, you can reference layers from other images by
   their hash, without having to upload them (using the _mount_ API call mentioned in the spec).
 * You can pretty easily run a local image registry (e.g. at port 5000) through `docker run --rm -p
   5000:5000 registry` (see [here](https://hub.docker.com/_/registry) for more details)
