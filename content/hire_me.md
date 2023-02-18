@@ -34,6 +34,6 @@ _See more testimonials on my [LinkedIn profile](https://www.linkedin.com/in/adol
 
 * __Location__. I am based in Utrecht, The Netherlands, and have a preference for remote work (on-site might be possible in particular cases).
 * __Working across time zones__. I am open to collaborating with colleagues in different time zones, if the kind of work is compatible with asynchronous communication and we make sure to sync through a video call once in a while.
-* __Teamwork vs. standalone__. Depending on your needs, I can work in a team or by myself.
+* __Working hours__. I have a preference for working 3 days a week, 8 hours a day (after all, there is more to life than programming).
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
 * <a href="/files/NLdigital Terms - EN.pdf">Terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>). These are required by my insurance, but we might deviate from them if there are good reasons to do so and we have a clear agreement regarding liability.
