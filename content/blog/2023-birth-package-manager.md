@@ -8,7 +8,7 @@ by programming languages and the tooling around them: compilers, IDEs, package m
 Eventually, that [got me involved]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}) as a
 hobbyist in the development of the Rust compiler and rust-analyzer, but I never got the chance to
 work professionally on programming language tooling... until two months ago! In January, the nice
-folks at [prefix.dev](https://previx.dev) asked me to help them develop the [rattler package
+folks at [prefix.dev](https://prefix.dev) asked me to help them develop the [rattler package
 manager](https://github.com/mamba-org/rattler), and there is lots to tell about what we have
 achieved since then, so buckle up!
 
