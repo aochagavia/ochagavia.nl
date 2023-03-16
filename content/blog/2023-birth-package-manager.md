@@ -93,7 +93,6 @@ Once the server is running, you can try POSTing the following body to `localhost
 
 ```json
 {
-    "name": "my-env",
     "platform": "linux-64",
     "specs": ["numpy"],
     "virtual_packages": ["__unix"],
@@ -108,7 +107,6 @@ dependencies (e.g. installing the famous `ncurses` C library):
 
 ```json
 {
-    "name": "my-env",
     "platform": "linux-64",
     "specs": ["ncurses"],
     "virtual_packages": ["__unix"],
