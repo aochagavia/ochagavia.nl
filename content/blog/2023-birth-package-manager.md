@@ -93,6 +93,7 @@ Once the server is running, you can try POSTing the following body to `localhost
 
 ```json
 {
+    "name": "my-env",
     "platform": "linux-64",
     "specs": ["numpy"],
     "virtual_packages": ["__unix"],
@@ -107,6 +108,7 @@ dependencies (e.g. installing the famous `ncurses` C library):
 
 ```json
 {
+    "name": "my-env",
     "platform": "linux-64",
     "specs": ["ncurses"],
     "virtual_packages": ["__unix"],
@@ -171,8 +173,8 @@ stay around for a few months to improve the library some more. I'll make sure to
 there is more to tell!
 
 In the meantime, if you have any comments, suggestions, ideas, etc. you want to share, feel free to
-contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can also [discuss](TODO)
-on HN.
+contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can also
+[discuss](https://news.ycombinator.com/item?id=35182791) on HN.
 
 #### Bonus track: testing-related crates
 
