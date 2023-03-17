@@ -67,7 +67,7 @@ be able to set up a working Python environment in a much shorter timeframe than 
 Python-based tools such as `miniconda`!
 
 Rust gives you pretty decent performance for free, but there is always room for more if you are
-willing to put the effort! For instance, I built a prototype to [generate docker images from conda
+willing to put in the effort! For instance, I built a prototype to [generate docker images from conda
 environments]({{< ref "/blog/2023-crafting-oci-images.md" >}}), which is very convenient for some
 scenarios[^3]. Another example is [@baszalmstra's
 PR](https://github.com/mamba-org/rattler/pull/89) to sparsely load the package index, inspired by
