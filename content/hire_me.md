@@ -8,7 +8,7 @@ Things I can do for you:
 
 * __Systems programming__. My skills are especially geared towards technical challenges where the solution is more complex than using a ready-made framework. Examples include [implementing the MySQL protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [creating container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), and [developing a package manager]({{< ref "/blog/2023-birth-package-manager.md" >}}).
 * __Open source Rust development__. Backed by my [experience as a contributor]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}) to the Rust open source ecosystem, and by a strong ability to find my way in new codebases, I am used to contributing to open source projects on behalf of companies. In [this article]({{< ref "/blog/2023-birth-package-manager.md" >}}) you can read more about my recent engagement with [Prefix.dev](https://prefix.dev), and about my current engagement with [Stormshield](https://www.stormshield.com/).
-* __Technical writing__. As you can probably deduce from my blog, I _love_ sharing ideas with others through writing. During my engagements, I make sure to take note of all interesting things I come across, so I can tell the world about them (with your permission). For me it is a way of giving back to the programmer community, while at the same time giving people the chance to see how interesting your business is.
+* __Technical writing__. As you can probably deduce from my blog, I _love_ sharing ideas with others through writing. During my engagements, I make sure to take note of all interesting things I come across, so I can tell the world about them (with your permission). For me it is a way of giving back to the programmer community, while at the same time offering people the chance to see how interesting your business is.
 
 Ways of working together:
 
@@ -17,7 +17,7 @@ Ways of working together:
 
 #### Technologies of choice
 
-Given enough time, I am able to get familiar with whatever technology you are using. There is a chance I am already acquainted with your tech stack, since in the past I have worked with the .NET, Java, Rust, Erlang and NPM ecosystems.
+Given enough time, I am able to get familiar with whatever technology you are using. There is a chance I am already acquainted with your tech stack, since in the past I have worked in the .NET, Java, Rust, Erlang and NPM ecosystems.
 
 When evaluating new projects, I have a strong preference for statically typed languages, because they align better with my way of thinking. Also, I prefer languages with good IDE support, because they make refactoring and maintenance much easier.
 
