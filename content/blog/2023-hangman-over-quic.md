@@ -118,8 +118,9 @@ perspective of a user, as explored in this post, the protocol feels like a power
 might reach to next time I need reliable data transfer over a network, instead of defaulting to TCP.
 
 As always, if you have any comments, suggestions, ideas, etc. you want to share, feel free to
-contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can also
-[discuss](https://news.ycombinator.com/item?id=35815186) on HN.
+contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can also discuss on
+[HN](https://news.ycombinator.com/item?id=35815186) and
+[mastodon](https://masto.ochagavia.nl/@adolfo/110310724660625084).
 
 [^1]: I implemented the DPLPMTUD feature described in [RFC
     9000](https://www.rfc-editor.org/rfc/rfc9000.html#name-datagram-packetization-laye), and the ACK
