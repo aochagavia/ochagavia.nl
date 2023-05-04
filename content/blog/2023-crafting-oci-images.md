@@ -414,7 +414,7 @@ crates that come in handy:
 
 There is much more to say, but I doubt at this point there are any readers left. If you are one of
 them, and feel like the rabbit hole didn't go deep enough, here are some additional facts from the
-final code I wrote that might peek your interest:
+final code I wrote that might pique your interest:
 
 * Instead of creating images as tar files, we are pushing them directly to an artifact registry. The
   API is such that you can upload the layer blobs you want, and upload the image configuration and
