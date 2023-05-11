@@ -7,20 +7,12 @@ For the last two months I have been on a contract to enhance
 [Quinn](https://crates.io/crates/quinn), the popular Rust implementation of the QUIC protocol. I
 hope to write one or two articles about my work at a later moment[^1], but today I want to offer you
 a partial (and runnable!) introduction to QUIC by implementing the hangman game over the network.
-
-## Show me the code!
-
-If you prefer to read code, rather than prose, you can skip everything below and head directly to
-the [repository](https://github.com/aochagavia/hangman-over-quic). There you will find a Rust
-implementation of the server and the client, with instructions on how to run them. Feel free to
-contribute with clients in other programming languages!
+You can find the code [here](https://github.com/aochagavia/hangman-over-quic).
 
 ## A tiny bit of context
 
-If you have never heard of QUIC before, you can think of it as an alternative to TCP, the protocol
-of choice when it comes to reliably transmitting bytes between two peers in a network. Similarly to
-TCP, QUIC is able to reliably exchange bytes, but it does so with better performance in at least two
-fronts:
+If you have never heard of QUIC before, you can think of it as an alternative to TCP with better
+performance on at least two fronts:
 
 * Handshake: QUIC establishes encrypted connections with less latency than TCP, because it requires
   one round-trip less (the TLS handshake is integrated in the QUIC handshake).
@@ -31,14 +23,18 @@ fronts:
 Because of these and other benefits, QUIC is used as the transport protocol in HTTP/3 (which
 accounts for more than 25% of HTTP connections![^2]). The current version of QUIC was standardized
 in May 2021[^3], so if you are interested in learning more about it, be careful to check the date of
-your sources, because substantial changes were made throughout the years and there are a few
-misleading articles out there that are no longer correct in their claims!
+your sources! Substantial changes were made throughout the years and there are a few misleading
+articles out there that are no longer correct in their claims.
 
-## Why hangman?
+#### Aside: why hangman?
 
-Why not? We need to implement _something_ in order to see QUIC in action. And, since
-writing an HTTP/3 library is way out of scope for this blog post, I thought we should settle on
-something simple and familiar: the hangman game.
+Why not? We need to implement _something_ in order to see QUIC in action. And, since writing an
+HTTP/3 library is kind of overkill for this blog post, I thought we should settle on something
+simple and familiar like the hangman game. Besides, I have a confession to make: at some point in my
+life I picked up the strange habit of implementing hangman when trying out networking libraries[^4].
+I can't do anything about it now...
+
+#### Aside: hangman 101
 
 In case you are not acquainted with it, hangman is a word-guessing game usually played between two
 players with paper and pencil (that made it popular in school, before smartphones were a thing).
@@ -52,64 +48,65 @@ Here is how it goes:
 1. The game continues until the word is completely guessed (the second player wins), or makes a
    wrong guess while having no lives left (the second player loses).
 
-## Networked hangman 101
+## Networked hangman
 
 In our networked scenario, the server picks a word and the user tries to guess it by repeatedly
 suggesting a letter. There is a hard limit of 5 wrong guesses (or lives), meaning that the player
 loses at the 6th wrong guess. Below follows the basic flow of a game.
 
-Game setup, after the QUIC connection is established:
+**Game setup**, after the QUIC connection is established:
 
 * Server: I see you want to play a game of hangman! I just picked a random word for you, it's length
-  is 6 (you sure didn't expect me to tell you the whole word right away, did you?)
+  is 6.
 
-Game loop:
+**Game loop**:
 
 * Client: does the word contain the letter 'a'?
 * Server (if it does): sure it does, at indices 0, 3 and 5.
 * Server (if it doesn't): nope, try again...
 
-The game ends when the client has guessed the word, or when it has made a wrong guess and there are
-no lives left. In both cases, the connection is terminated.
+The **game end**s when the client has guessed the word, or when it has made a wrong guess and there
+are no lives left. In both cases, the connection is terminated.
 
-#### Aside 1: what about multiplexing?
+#### Aside: what about multiplexing?
 
 Since we are using QUIC, it would be great to use its native multiplexing capabilities... For that
 purpose, we will let the server regularly send an up-to-date count of online players in a dedicated
 data stream.
 
-#### Aside 2: a suitable word list
+#### Aside: a suitable word list
 
 Where should the server get its random words from? Animal names, of course! I found [this
 gist](https://gist.github.com/atduskgreg/3cf8ef48cb0d29cf151bedad81553a54) and cleaned it up for our
-purposes to keep only animal names that are at least 5 characters long and contain no spaces[^4]. I
+purposes to keep only animal names that are at least 5 characters long and contain no spaces[^5]. I
 also removed duplicates and transformed the characters to lowercase, as you can see from the
 resulting file in the repository.
 
 ## Hangman over QUIC
 
 Let us return to the description of a networked hangman, and map that to QUIC terms. The ones
-relevant to our problem are few and reasonably self-explanatory, so I will mention them without
-stopping to explain them, and do a recap afterwards.
+relevant to our problem are few and reasonably self-explanatory, so I will mention them _en passant_
+and do a recap afterwards.
 
-During game setup, when a new player connects, the server will open two _unidirectional streams_
-(from the server to the player). The server will send the length of the word, as a single byte, in
-the first stream, and will close it right afterwards. The second stream will remain open during the
-whole connection, and the server will repeatedly send an integer representing the current player
-count (the integer is 32 bits wide, unsigned and little-endian).
+During **game setup**, when a new player connects, the server will open two _unidirectional streams_
+(from the server to the player). In the first one, the server will send the length of the word (a
+single byte), closing the stream right afterwards. In the second one, the server will repeatedly
+send the current player count (a 4-byte integer), and so the stream will remain open during the
+whole connection.
 
-During the game loop, the client will open a _bidirectional stream_ for each guess. The guess
-consists of a single byte corresponding to the ASCII code of the letter, and is replied to by the
-server with a series of bytes: the first indicating the amount of times that the guessed letter
-appears in the word, and the rest corresponding to the index of each appearance of the letter. When
-the guessed letter does not appear in the word, the response is the single byte `0`, and the client
-knows the guess was wrong.
+After game setup we come to the **game loop**. For each guess the client will open a _bidirectional
+stream_. The client will send the guess (the ASCII code of the letter), and the server will respond
+with the indexes where the letter was found (a list of bytes, prefixed by its length). If the list
+of indexes is empty, the client knows the guess was wrong. The server will also close the stream,
+since the next guess will be using a new one.
 
 Internally, the client and the server keep track of how far the game is, and will automatically
-terminate the connection when the game is finished. If a client fails to terminate the connection,
-the server will, so there is no way to cheat there.
+terminate the connection when the **game end**s. If a client fails to terminate the connection, the
+server will (never trust the client!)
 
-From the description above, you can draw a few conclusions:
+#### A QUIC recap
+
+From the description above, we can draw a few conclusions:
 
 * The usual way to exchange data in QUIC is through streams, which can be unidirectional or
   bidirectional.
@@ -119,7 +116,7 @@ From the description above, you can draw a few conclusions:
   bidirectional stream. The server's response is transmitted in a single datagram as well, which at
   the same time closes the stream.
 
-#### Aside 3: HTTP/3
+#### Aside: HTTP/3
 
 Can you already see the consequences this has for HTTP/3? It means you can very cheaply create QUIC
 streams to download the different resources needed to display a website! And since they are fully
@@ -128,15 +125,18 @@ progressing (which is currently an issue with TCP-based HTTP/2).
 
 ## Closing words
 
-QUIC has come quite far since the first time I heard of it, when it was still a working draft. Being
-paid to work on Quinn was an awesome experience that I hope to repeat in the future. From the
-perspective of a user, as explored in this post, the protocol feels like a powerful tool that I
-might reach to next time I need reliable data transfer over a network, instead of defaulting to TCP.
+There is _much_ more to QUIC, as you will discover if you decide to go down the rabbit hole. The
+protocol has come quite far since the first time I heard of it, when it was still a working draft!
 
-As always, if you have any comments, suggestions, ideas, etc. you want to share, feel free to
-contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can also discuss on
-[HN](https://news.ycombinator.com/item?id=35815186) and
-[mastodon](https://masto.ochagavia.nl/@adolfo/110310724660625084).
+From the perspective of a user, the protocol feels like a powerful tool that I might reach to in the
+future, instead of defaulting to TCP. From the perspective of an implementer, studying the RFCs and
+working together with the Quinn maintainers was an experience I'd love to repeat!
+
+_Discuss on [HN](https://news.ycombinator.com/item?id=35815186) and
+[mastodon](https://masto.ochagavia.nl/@adolfo/110310724660625084)_.
+
+_Interested in working together? Check out the [Hire me]({{< ref "/hire_me" >}}) page and get in
+touch!_
 
 [^1]: I implemented the DPLPMTUD feature described in [RFC
     9000](https://www.rfc-editor.org/rfc/rfc9000.html#name-datagram-packetization-laye), and the ACK
@@ -156,7 +156,9 @@ contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can 
     meetings](https://github.com/quicwg/wg-materials), [1,749
     issues](https://github.com/quicwg/base-drafts/issues?q=is%3Aissue+is%3Aclosed+), and [many
     thousands of emails](https://mailarchive.ietf.org/arch/browse/quic/)."
-[^4]: ChatGPT turns out to be a pretty user-friendly interface to grep. Here is my prompt: "I have a
+[^4]: [Here](https://github.com/aochagavia/elixir-hangman) is the last hangman implementation I
+    wrote before the QUIC one, when learning Elixir.
+[^5]: ChatGPT turns out to be a pretty user-friendly interface to grep. Here is my prompt: "I have a
     multi-line text file that I want to filter. I want to keep only lines which are at least 5
     characters long and have no spaces. Please tell me which commands I should run to achieve this
     goal, using Ubuntu."
