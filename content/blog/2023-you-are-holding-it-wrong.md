@@ -112,7 +112,9 @@ fn main() {
 This looks like a perfectly valid program, except that it doesn't compile! Rust will reject it,
 because it does not follow the ownership rules, which guarantee data-race freedom. I'll spare you
 the details, but you can read on to your heart's delight in the [official
-docs](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html).
+docs](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) (_and_ you can see the
+fixed version of the code
+[here](https://github.com/aochagavia/blog-code/blob/main/2023-you-are-holding-it-wrong/parallel-count-rs/src/main.rs)).
 
 After all this years using and contributing to Rust, it still feels like a major breakthrough
 bridging Computer Science research and pragmatic software development[^3]. This kind of program analysis
@@ -125,7 +127,7 @@ holding it wrong" is no longer a valid excuse.
 _Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185) or
 [r/rust](https://old.reddit.com/r/rust/comments/13el1kx/you_are_holding_it_wrong/)._
 
-[^1]: I had dabbled with PHP, Python and C during high school, but I can't say I truly understood
+[^1]: I had dabbled in PHP, Python and C during high school, but I can't say I truly understood
     them.
 [^2]: The sheer complexity of this all led David Baron to draw a line, high on the wall of his
     office at Mozilla, with the text: "Must be this tall to write multi-threaded code". See [this
