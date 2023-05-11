@@ -122,7 +122,7 @@ This is what fascinated me then, and up to this day. Rust is about resolving app
 (mutability _or_ parallelism, memory safety _or_ garbage collection), and revealing that "you are
 holding it wrong" is no longer a valid excuse.
 
-Discuss on [Mastodon](TODO).
+Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185).
 
 [^1]: I had dabbled with PHP, Python and C during high school, but I can't say I truly understood
     them.
