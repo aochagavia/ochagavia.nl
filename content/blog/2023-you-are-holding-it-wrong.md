@@ -5,7 +5,7 @@ date = "2023-05-11"
 
 Yesterday I had the fortune to attend the [RustNL
 conference](https://www.youtube.com/watch?v=9Q4yNlbfiYk) in Amsterdam. It was incredibly energizing
-and reminded me of my fascination for the language, [when I started contributing]({{< ref
+and reminded me of my fascination for the language, when I [started contributing]({{< ref
 "/blog/2022-how-i-got-involved-in-rust.md" >}}) back in 2014. On the train back home this post was
 born, as a way to put this fascination into words.
 
