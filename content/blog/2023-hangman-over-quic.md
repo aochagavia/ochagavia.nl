@@ -34,12 +34,29 @@ in May 2021[^3], so if you are interested in learning more about it, be careful 
 your sources, because substantial changes were made throughout the years and there are a few
 misleading articles out there that are no longer correct in their claims!
 
+## Why hangman?
+
+Why not? We need to implement _something_ in order to see QUIC in action. And, since
+writing an HTTP/3 library is way out of scope for this blog post, I thought we should settle on
+something simple and familiar: the hangman game.
+
+In case you are not acquainted with it, hangman is a word-guessing game usually played between two
+players with paper and pencil (that made it popular in school, before smartphones were a thing).
+Here is how it goes:
+
+1. One player thinks of a word and writes a series of dashes on a piece of paper, representing each
+   letter.
+1. The other player guesses letters, one at a time, by stating them out loud.
+1. If the guessed letter is in the word, the first player writes it in the corresponding blanks. If
+   the guessed letter is not in the word, the second player loses a life.
+1. The game continues until the word is completely guessed (the second player wins), or makes a
+   wrong guess while having no lives left (the second player loses).
+
 ## Networked hangman 101
 
-With that out of the way, let's dive into the hangman game! In our networked scenario, the server
-picks a word and the player tries to guess it by repeatedly suggesting a letter. There is a hard
-limit of 5 wrong guesses (or lives), meaning that the player loses at the 6th wrong guess. Below
-follows the basic flow of a game.
+In our networked scenario, the server picks a word and the user tries to guess it by repeatedly
+suggesting a letter. There is a hard limit of 5 wrong guesses (or lives), meaning that the player
+loses at the 6th wrong guess. Below follows the basic flow of a game.
 
 Game setup, after the QUIC connection is established:
 
@@ -58,9 +75,8 @@ no lives left. In both cases, the connection is terminated.
 #### Aside 1: what about multiplexing?
 
 Since we are using QUIC, it would be great to use its native multiplexing capabilities... For that
-purpose, we will let the server regularly send an up-to-date count of online players. As a
-side-effect, players can feel less lonely during the game (though it may make things worse, if you
-are the only one in the universe connected to the server).
+purpose, we will let the server regularly send an up-to-date count of online players in a dedicated
+data stream.
 
 #### Aside 2: a suitable word list
 
