@@ -119,10 +119,11 @@ bridging Computer Science research and pragmatic software development[^3]. This 
 is supposed to be too impractical for real-world programming, yet it works!
 
 This is what fascinated me then, and up to this day. Rust is about resolving apparent paradoxes
-(mutability _or_ parallelism, memory safety _or_ garbage collection), and revealing that "you are
+(mutability _or_ parallelism, garbage collection _or_ memory unsafety), and revealing that "you are
 holding it wrong" is no longer a valid excuse.
 
-Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185).
+_Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185) or
+[r/rust](https://old.reddit.com/r/rust/comments/13el1kx/you_are_holding_it_wrong/)._
 
 [^1]: I had dabbled with PHP, Python and C during high school, but I can't say I truly understood
     them.
