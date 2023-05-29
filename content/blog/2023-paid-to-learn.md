@@ -81,8 +81,8 @@ Here they are, in case you are interested:
   received packtes (currently an [IETF
   draft](https://datatracker.ietf.org/doc/html/draft-ietf-quic-ack-frequency)).
 
-_Discuss on [HN](TODO) and
-[mastodon](TODO)_.
+_Discuss on [HN](https://news.ycombinator.com/item?id=36114797) and
+[mastodon](https://masto.ochagavia.nl/@adolfo/110452631052154533)_.
 
 _Interested in working together? Check out the [Hire me]({{< ref "/hire_me" >}}) page and get in
 touch!_
