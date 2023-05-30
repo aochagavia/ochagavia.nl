@@ -78,7 +78,7 @@ Here they are, in case you are interested:
   (specified in [RFC 9000, section 14.3](https://www.rfc-editor.org/rfc/rfc9000.html#section-14.3)
   and documented [here](https://docs.rs/quinn/0.10.1/quinn/struct.MtuDiscoveryConfig.html)).
 * **ACK Frequency**: an experimental feature to control how often a QUIC endpoint should acknowledge
-  received packtes (currently an [IETF
+  received packets (currently an [IETF
   draft](https://datatracker.ietf.org/doc/html/draft-ietf-quic-ack-frequency)).
 
 _Discuss on [HN](https://news.ycombinator.com/item?id=36114797) and
