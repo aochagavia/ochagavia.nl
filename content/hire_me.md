@@ -23,6 +23,10 @@ When evaluating new projects, I have a strong preference for statically typed la
 
 #### Testimonials
 
+Dirkjan Ochtman ([@djc](https://github.com/djc/)), open source maintainer:
+
+> Adolfo was able to quickly get up to speed with our open source project, filling up any domain-specific knowledge gaps by reading specifications, diving into the source code, inspecting other implementations and working with us as maintainers. He was eager to tackle our feedback to pull requests, and a very pleasant person to interact with. Highly recommend working with him!
+
 Jeroen Heijmans, CTO at Infi Utrecht:
 
 > At Infi I've had the pleasure of working together with Adolfo. His technical skills make him part of the top 1%, even regardless of the specific technology! He was ever thoughtful in his interactions with colleagues, other team members, and clients. Always finding a great balance between being pragmatic and not avoiding any hard discussions or problems. If you consider doing a project or work together with Adolfo I can highly recommend doing so!
