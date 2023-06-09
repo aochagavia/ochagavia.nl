@@ -69,7 +69,7 @@ computer's memory? It took me some time to learn that my program had what is cal
 that this was caused by constraints in the underlying hardware, that I needed to use atomic
 operations, etc[^2].
 
-At the time it seemed obvious to me that C# didn't protect me against this kind of bug. Going back
+At the time it seemed natural to me that C# didn't protect me against this kind of bug. Going back
 to the meme, I really thought "I was holding it wrong". How could I expect a programming language to
 do anything about data races? That was until I came across a language that that refused to compile
 my buggy program.
@@ -120,9 +120,10 @@ After all this years using and contributing to Rust, it still feels like a major
 bridging Computer Science research and pragmatic software development[^3]. This kind of program analysis
 is supposed to be too impractical for real-world programming, yet it works!
 
-This is what fascinated me then, and up to this day. Rust is about resolving apparent paradoxes
-(mutability _or_ parallelism, garbage collection _or_ memory unsafety), and revealing that "you are
-holding it wrong" is no longer a valid excuse.
+This is what fascinated me then, and up to this day. Rust is about resolving apparent paradoxes: you
+can have mutability _and_ parallelism, "manual" memory management[^4] _and_ memory safety. The
+language actively prevents you from shooting yourself in the foot, instead of allowing it with the
+excuse that "you are holding it wrong".
 
 _Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185) or
 [r/rust](https://old.reddit.com/r/rust/comments/13el1kx/you_are_holding_it_wrong/)._
@@ -137,3 +138,6 @@ _Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185) or
     community, with major players like [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner)
     betting on it (see the [Mojo](https://www.modular.com/mojo) programming language, which was
     recently announced).
+[^4]: I'm using the term "manual" here by lack of a better word, to express the fact that in Rust
+    the programmer controls when memory is allocated and freed (i.e. without a garbage collector).
+    The process is actually automatic, though.
