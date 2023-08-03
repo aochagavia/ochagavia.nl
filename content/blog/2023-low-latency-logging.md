@@ -5,8 +5,9 @@ date = "2023-07-30"
 
 _Note: this blog post was not written by me. It was posted as a [comment on
 r/rust](https://old.reddit.com/r/rust/comments/15cm4ug/low_latency_logging/jtxfttd/) by user
-matthieum, who gave me permission to repost it here. Everything below this paragraph has been taken
-verbatim from there._
+matthieum, and was so well received that I thought it deserved to reach a broader audience. He gave
+me permission to repost it here. Everything below this paragraph has been taken verbatim from
+there._
 
 ### ---
 
