@@ -6,8 +6,8 @@ Did my blog pique your interest? Great to hear! This page will give you more inf
 
 Things I can do for you:
 
-* __Systems programming__. My skills are especially geared towards technical challenges where the solution is more complex than using a ready-made framework. Examples include [implementing the MySQL protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [creating container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), and [developing a package manager]({{< ref "/blog/2023-birth-package-manager.md" >}}).
-* __Open source development__. I contribute to open source projects on behalf of companies, backed by my [experience as a contributor]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}) to the Rust open source ecosystem, and by a strong ability to find my way in new codebases. [This article]({{< ref "/blog/2023-birth-package-manager.md" >}}) tells about a recent open-source engagement with [Prefix.dev](https://prefix.dev), and [this one]({{< ref "/blog/2023-paid-to-learn.md" >}}) about one with [Stormshield](https://www.stormshield.com/).
+* __Systems programming__. My skills are especially geared towards technical challenges where the solution is more complex than using a ready-made framework. Examples include [implementing the MySQL wire protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [creating container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), and [developing a package manager]({{< ref "/blog/2023-birth-package-manager.md" >}}).
+* __Open source development__. I contribute to open source projects on behalf of companies, backed by my [experience as a contributor]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}) to the Rust open source ecosystem, and by a strong ability to find my way in new codebases. I'm currently on a contract for [ISRG](https://www.abetterinternet.org/), makers of Let's Encrypt, to work on the [Rustls](https://github.com/rustls/rustls) library.
 * __Technical writing__. As you can probably deduce from my blog, I _love_ sharing ideas with others through writing. During my engagements, I make sure to take note of all interesting things I come across, so I can tell the world about them (with your permission). For me it is a way of giving back to the programmer community, while at the same time offering people the chance to see how interesting your business is.
 
 Ways of working together:
@@ -27,7 +27,11 @@ Dirkjan Ochtman ([@djc](https://github.com/djc/)), open source maintainer:
 
 > Adolfo was able to quickly get up to speed with our open source project, filling up any domain-specific knowledge gaps by reading specifications, diving into the source code, inspecting other implementations and working with us as maintainers. He was eager to tackle our feedback to pull requests, and a very pleasant person to interact with. Highly recommend working with him!
 
-Jeroen Heijmans, CTO at Infi Utrecht:
+Wolf Vollprecht ([@wolfv](https://github.com/wolfv/)), founder and CEO of [Prefix.dev](https://prefix.dev/):
+
+> We had the pleasure to work with Adolfo on multiple projects and it was always a rewarding experience. He dives head first into the problem, thinks deeply about it and comes up with clean solutions. We can absolutely recommend working with Adolfo on challenging computer science problems.
+
+Jeroen Heijmans ([@jeroenheijmans](https://github.com/jeroenheijmans/)), CTO at Infi Utrecht:
 
 > At Infi I've had the pleasure of working together with Adolfo. His technical skills make him part of the top 1%, even regardless of the specific technology! He was ever thoughtful in his interactions with colleagues, other team members, and clients. Always finding a great balance between being pragmatic and not avoiding any hard discussions or problems. If you consider doing a project or work together with Adolfo I can highly recommend doing so!
 
