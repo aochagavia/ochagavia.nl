@@ -17,9 +17,9 @@ Ways of working together:
 
 #### Technologies of choice
 
-Given enough time, I am able to get familiar with whatever technology you are using. There is a chance I am already acquainted with your tech stack, since in the past I have worked in the .NET, Java, Rust, Erlang and NPM ecosystems.
+Given enough time, I am able to get familiar with whatever technology you are using. There is a chance I am already acquainted with your tech stack, since in the past I have worked in the .NET, Java, Rust, Erlang and Node.js ecosystems (and experimented with a few more).
 
-When evaluating new projects, I have a strong preference for statically typed languages, because they align better with my way of thinking. Also, I prefer languages with good IDE support, because they make refactoring and maintenance much easier.
+When evaluating new projects, I have a strong preference for statically typed languages, because they align better with my way of thinking. Also, I prefer ecosystems with mature tooling, which allows me to focus on the essential aspects of the problem (instead of being bogged down by accidental complexity).
 
 #### Testimonials
 
@@ -43,9 +43,9 @@ _See more testimonials on my [LinkedIn profile](https://www.linkedin.com/in/adol
 
 #### Practicalities
 
-* __Location__. I am based in Amsterdam, The Netherlands, and have a preference for remote work (on-site might be possible if your team is located in Amsterdam).
-* __Working across time zones__. I am open to collaborating with colleagues in different time zones, if the kind of work is compatible with asynchronous communication and we make sure to sync through a video call once in a while.
-* __Working hours__. I have a preference for working 3 days a week, 8 hours a day (after all, there is more to life than programming).
+* __Location__. I am based in Amsterdam and have a preference for remote work (on-site might be possible if your team is in Amsterdam).
+* __Working across time zones__. I am open to collaborating with colleagues in different time zones, as long as the kind of work is compatible with asynchronous communication.
+* __Working hours__. I am interested in contracts for 3 days a week, 8 hours a day.
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
 * __Company__. I am registered as a one-person company (eenmanszaak) at the Dutch Chamber of Commerce, under number 80893503.
-* <a href="/files/NLdigital Terms - EN.pdf">Terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>). These are required by my insurance, but we might deviate from them if there are good reasons to do so and we have a clear agreement regarding liability.
+* __Legal__. I work under <a href="/files/NLdigital Terms - EN.pdf">these terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>). They are required by my insurance, but we might deviate from them if there are good reasons to do so and we agree to limit my liability.
