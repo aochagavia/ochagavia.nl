@@ -43,7 +43,7 @@ _See more testimonials on my [LinkedIn profile](https://www.linkedin.com/in/adol
 
 #### Practicalities
 
-* __Location__. I am based in Utrecht, The Netherlands, and have a preference for remote work (on-site might be possible in particular cases).
+* __Location__. I am based in Amsterdam, The Netherlands, and have a preference for remote work (on-site might be possible if your team is located in Amsterdam).
 * __Working across time zones__. I am open to collaborating with colleagues in different time zones, if the kind of work is compatible with asynchronous communication and we make sure to sync through a video call once in a while.
 * __Working hours__. I have a preference for working 3 days a week, 8 hours a day (after all, there is more to life than programming).
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
