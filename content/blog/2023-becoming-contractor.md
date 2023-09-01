@@ -151,7 +151,7 @@ And so we reach the end of both the story and my reflections upon it. Was it ins
 
 There is much more that could be said, but this whole blog post is already long enough. With a bit of luck you will have a delicious portion of HN comments as a side dish, including much more interesting things than anything I can come up with!
 
-_Feel free to [hit me up](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;), or to [discuss on Hacker News](TODO)_.
+_Feel free to [hit me up](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;), or to [discuss on Hacker News](https://news.ycombinator.com/item?id=37348079)_.
 
 _With special thanks to [Tim](https://github.com/tdejager), [Jouke](https://github.com/jtwaleson), [Jeroen](https://www.programming-engineer.nl/), [Yoeri](https://github.com/Miljoen) and [Bart](https://www.linkedin.com/in/bart-dubbeldam/) for reviewing early drafts of this post_.
 
