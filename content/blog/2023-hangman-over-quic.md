@@ -132,8 +132,7 @@ From the perspective of a user, the protocol feels like a powerful tool that I m
 future, instead of defaulting to TCP. From the perspective of an implementer, studying the RFCs and
 working together with the Quinn maintainers was an experience I'd love to repeat!
 
-_Discuss on [HN](https://news.ycombinator.com/item?id=35913485) and
-[mastodon](https://masto.ochagavia.nl/@adolfo/110310724660625084)_.
+_Discuss on [HN](https://news.ycombinator.com/item?id=35913485)_.
 
 _Interested in working together? Check out the [Hire me]({{< ref "/hire_me" >}}) page and get in
 touch!_

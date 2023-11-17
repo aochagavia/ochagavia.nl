@@ -125,8 +125,7 @@ can have mutability _and_ parallelism, "manual" memory management[^4] _and_ memo
 language actively prevents you from shooting yourself in the foot, instead of allowing it with the
 excuse that "you are holding it wrong".
 
-_Discuss on [Mastodon](https://masto.ochagavia.nl/@adolfo/110349687500307185) or
-[r/rust](https://old.reddit.com/r/rust/comments/13el1kx/you_are_holding_it_wrong/)._
+_Discuss on [r/rust](https://old.reddit.com/r/rust/comments/13el1kx/you_are_holding_it_wrong/)._
 
 [^1]: I had dabbled in PHP, Python and C during high school, but I can't say I truly understood
     them.
