@@ -37,8 +37,8 @@ skills. As a teenager, I had to teach myself about computers and programming, be
 one else around who could; as a Computer Science student, it felt natural to complement the formal
 teaching with side projects and open source contributions, which were a treasure trove of knowledge;
 as a professional programmer, I have always preferred projects that require some thinking to arrive
-at a solution. Citing another HN gem, I'd say I'm "curious and not intimidated to get
-stuck into stuff I have zero knowledge of"[^4].
+at a solution. Citing another HN gem, I'd say I'm _"curious and not intimidated to get
+stuck into stuff I have zero knowledge of"_[^4].
 
 With that in mind, it sounds like music in my ears when someone wants to hire me to solve a problem
 I don't know how to solve!
