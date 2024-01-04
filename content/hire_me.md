@@ -23,6 +23,10 @@ When evaluating new projects, I have a strong preference for statically typed la
 
 #### Testimonials
 
+Josh Aas, director of [ISRG](https://www.abetterinternet.org/) and co-founder of [Let's Encrypt](https://letsencrypt.org/):
+
+> I contracted Adolfo to build a benchmarking system for the Rustls TLS library. He put together a clear plan, iterated on it with the Rustls maintainers, and then did an excellent job implementing it. The final result works well and has already helped us make Rustls significantly faster. All along the way Adolfo communicated well with me and the rest of the Rustls team. I would absolutely have Adolfo work on projects for us again in the future.
+
 Dirkjan Ochtman ([@djc](https://github.com/djc/)), open source maintainer:
 
 > Adolfo was able to quickly get up to speed with our open source project, filling up any domain-specific knowledge gaps by reading specifications, diving into the source code, inspecting other implementations and working with us as maintainers. He was eager to tackle our feedback to pull requests, and a very pleasant person to interact with. Highly recommend working with him!
