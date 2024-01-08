@@ -36,7 +36,7 @@ For the curious, the code for each benchmarked scenario is in the [main rustls r
 
 ## What about OpenSSL?
 
-The continuous benchmarking system described above is ideal to track performance differences among versions of rustls, but it cannot be used to compare against OpenSSL[^2]. Still, I _did_ benchmark rustls against OpenSSL using a different method (see [this post](https://www.memorysafety.org/blog/rustls-performance/) for details). The results show that in many scenarios rustls is faster and less memory hungry, but there are many areas too were it falls behind OpenSSL (not for long, hopefully!).
+The continuous benchmarking system described above is ideal to track performance differences among versions of rustls, but it cannot be used to compare against OpenSSL[^2]. Still, I _did_ benchmark rustls against OpenSSL using a different method (see [this post](https://www.memorysafety.org/blog/rustls-performance/) for details). The results show that in many scenarios rustls is faster and less memory hungry, but there are many areas too where it falls behind OpenSSL (not for long, hopefully!).
 
 ## Aside: shoutout to cachegrind
 
