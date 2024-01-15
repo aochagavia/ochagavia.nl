@@ -1,4 +1,10 @@
-<a href="{{ "/" | relURL }}">Home</a>
-<a href="{{ "/blog" | relURL }}">Blog</a>
-<a href="{{ "/blog/index.xml" }}">RSS feed</a>
-<a href="{{ "/hire_me" | relURL }}">Hire me</a>
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+    <div class="nav-links">
+        <a class="nav-link" href="{{ "/" | relURL }}">Home</a>
+        <a class="nav-link" href="{{ "/blog" | relURL }}">Blog</a>
+        <a class="nav-link" href="{{ "/hire_me" | relURL }}">Hire me</a>
+    </div>
+    <diV>
+        <span style="font-style: italic;">Subscribe through <a href="{{ "/blog/index.xml" }}">RSS</a> or <a href="https://buttondown.email/aochagavia">email</a></span>
+    </diV>
+</div>
