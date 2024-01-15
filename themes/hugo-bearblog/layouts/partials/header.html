@@ -1,4 +1,7 @@
-<a href="{{ "/" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
-</a>
+<div class="title">
+  <a href="{{ "/" | relURL }}" class="title">
+    <h2 style="margin-bottom: 0px;">{{ .Site.Title }}</h2>
+  </a>
+  <div style="font-style: italic; margin-bottom: 20px;">Subscribe through <a href="{{ "/blog/index.xml" }}">RSS</a> or <a href="https://buttondown.email/aochagavia">email</a></div>
+</div>
 <nav>{{- partial "nav.html" . -}}</nav>
