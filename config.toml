@@ -4,6 +4,9 @@ languageCode = 'en-us'
 title = "Adolfo Ochagavía"
 author = "Adolfo Ochagavía"
 
+# This makes sure the title of the blog section is Blog instead of Blogs
+pluralizeListTitles = false
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
