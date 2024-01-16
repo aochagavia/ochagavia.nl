@@ -17,4 +17,4 @@ Finally, since this post is also meant to trigger a discussion about current sub
 2. There should be nothing on my blog that distracts people from actually reading. The possibility to subscribe should be easy to find for those actively looking for it, without getting in the way of people who don't care.
 3. Anonymous subscriptions through RSS should be encouraged, even though they don't allow me to quantify the "engagement" my posts are "generating".
 
-Regarding the discussion itself, I've submitted the article to Hacker News, so there's a chance people are commenting [there](TODO). Also... sorry about the title! I coldn't resist.
+Regarding the discussion itself, I've submitted the article to Hacker News, so there's a chance people are commenting [there](https://news.ycombinator.com/item?id=39010491). Also... sorry about the title! I couldn't resist. I actually _love_ RSS and hope most people use it! I'll probably post a follow up in a few months, telling whether people actually subscribed through email. Maybe time will prove me wrong and confirm that, after all, RSS is alive and kicking.
