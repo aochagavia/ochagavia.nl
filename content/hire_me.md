@@ -2,13 +2,13 @@
 title = 'Hire me'
 +++
 
-Did my blog pique your interest? Great to hear! If you are considering working together, contact me at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a> so we can discuss.
+Interested in working together? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a>! Interested in discussing something else? Hit me up anyway :)
 
 Things I can do for you:
 
-* __Systems programming__. My skills are especially geared towards technical challenges where the solution is more complex than using a ready-made framework. For previous contracts I've [implemented the MySQL wire protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [created container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), [developed a CDCL dependency solver]({{< ref "/blog/2023-magic-dependency-resolution.md" >}}), and more.
-* __Open source development__. I contribute to open source projects on behalf of organizations, backed by my [experience as a contributor]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}) to the Rust ecosystem and a strong ability to find my way in new codebases. My last open source contract was with [ISRG](https://www.abetterinternet.org/), makers of [Let's Encrypt](https://letsencrypt.org/) (related [blog post]({{< ref "/blog/2024-continuous-benchmarking-rustls.md" >}})). Other past open source clients were [Prefix.dev](https://prefix.dev/) and [Stormshield](https://www.stormshield.com/).
-* __Technical writing__. I _love_ sharing ideas through writing. During my engagements I take note of all interesting things I come across, so I can tell the world about them (with your permission). For me it is a way of giving back to the programmer community, while at the same time offering people the chance to see how interesting your project is.
+* __Systems programming__. I thrive when a programming challenge involves a technical deep dive. For previous contracts I've [implemented the MySQL wire protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [created container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), [developed a CDCL dependency solver]({{< ref "/blog/2023-magic-dependency-resolution.md" >}}), and more.
+* __Open source development__. I've been involved as a [contributor to the Rust ecosystem since 2014]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}). Nowadays, organizations hire me to boost open source projects: designing, implementing and polishing features that would otherwise be postponed because of limited developer bandwidth. For an example, check out [this article]({{< ref "/blog/2024-continuous-benchmarking-rustls.md" >}}) about a recent contract with [ISRG](https://www.abetterinternet.org/) (makers of [Let's Encrypt](https://letsencrypt.org/)). Other past open source clients were [Prefix.dev](https://prefix.dev/) and [Stormshield](https://www.stormshield.com/).
+* __Consulting__. Next to "hardcore programming", I also help companies develop their technical strategy, distill clear requirements from fuzzy interactions with stakeholders, constructively discuss software architecture improvements, foster team collaboration through agile coaching, and more.
 
 #### Testimonials
 
@@ -16,7 +16,7 @@ _The excerpts below are taken from received [LinkedIn recommendations](https://w
 
 Josh Aas, co-founder of [Let's Encrypt](https://letsencrypt.org/) and director of [ISRG](https://www.abetterinternet.org/):
 
-> [Adolfo] put together a clear plan, iterated on it with the Rustls maintainers, and then did an excellent job implementing it (...). I would absolutely have Adolfo work on projects for us again in the future.
+> [Adolfo] put together a clear plan, iterated on it (...), and then did an excellent job implementing it (...). I would absolutely have Adolfo work on projects for us again in the future.
 
 Dirkjan Ochtman ([@djc](https://github.com/djc/)), open source maintainer of [well-known Rust crates](https://github.com/sponsors/djc):
 
