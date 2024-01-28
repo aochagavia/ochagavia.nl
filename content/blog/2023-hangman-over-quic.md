@@ -140,7 +140,7 @@ touch!_
 [^1]: I implemented the DPLPMTUD feature described in [RFC
     9000](https://www.rfc-editor.org/rfc/rfc9000.html#name-datagram-packetization-laye), and the ACK
     Frequency proposal described in [this QUIC WG
-    draft](https://datatracker.ietf.org/doc/html/draft-ietf-quic-ack-frequency). You can check out
+    draft](https://datatracker.ietf.org/doc/html/draft-ietf-quic-ack-frequency-04). You can check out
     the [open](https://github.com/quinn-rs/quinn/pulls/aochagavia) and
     [closed](https://github.com/quinn-rs/quinn/pulls?q=is%3Apr+author%3Aaochagavia+is%3Aclosed) PRs
     on Quinn's repository, if you want to dive into the technical details.

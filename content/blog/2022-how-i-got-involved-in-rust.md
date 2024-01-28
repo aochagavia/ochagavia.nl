@@ -3,7 +3,7 @@ title = "How I got involved in the Rust community"
 date = "2022-12-09"
 +++
 
-In 2013 I started my Computer Science degree at Utrecht University (The Netherlands). Due to my previous experience with programming, and because I was genuinely interested in the course subjects, I aced my first year and even had time to investigate additional topics I found interesting. When my friend Jouke Waleson told me about the existence of [Hacker News](https://news.ycombinator.com/), I quickly became a daily visitor, as it seemed to me like an endless source of programming knowledge.
+In 2013 I started my Computer Science degree at Utrecht University (The Netherlands). Due to my previous experience with programming, and because I was genuinely interested in the course subjects, I aced my first year and even had time to investigate additional topics I found interesting. When my friend [Jouke Waleson](https://blog.waleson.com/) told me about the existence of [Hacker News](https://news.ycombinator.com/), I quickly became a daily visitor, as it seemed to me like an endless source of programming knowledge.
 
 It was probably on the Hacker News frontpage when I first heard of the Rust programming language. Back then I was on a quest to learn all kinds of programming languages, to get some exposure to different paradigms and enrich my thinking as a programmer. Playing with Rust was frustrating, especially because its ownership semantics were so different from everything else I knew. On the other hand, I could sense there was something revolutionary about it, because it promised to provide memory safety without garbage collection _and_ thread-safety alongside mutability, something that no mainstream programming language had.
 
