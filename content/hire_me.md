@@ -2,6 +2,8 @@
 title = 'Hire me'
 +++
 
+# Hire me
+
 Interested in working together? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a>! Interested in discussing something else? Hit me up anyway :)
 
 Things I can do for you:
