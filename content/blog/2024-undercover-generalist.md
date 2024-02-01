@@ -60,7 +60,7 @@ Considering all this, my current theory is that focusing on your experience with
 
 Have you struggled with the topics mentioned in this post? I'm very curious to hear your opinion on the experience of finding clients, your approach to branding, the fear of accidentally becoming a specialist, and more.
 
-Hit me up [through email](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;) or [discuss on HN](TODO).
+Hit me up [through email](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;) or [discuss on HN](https://news.ycombinator.com/item?id=39213809).
 
 #### Bonus: my approach over time
 
