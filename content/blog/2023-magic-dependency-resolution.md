@@ -23,6 +23,8 @@ Yes, it is a fork of [libsolv](https://github.com/openSUSE/libsolv), but it is p
 
 Yes, thanks to a generous grant by [NumFOCUS](https://numfocus.org/programs/small-development-grants). We called the resulting library `libsolv_rs`, because it's mostly a port of the libsolv C library, though it currently only supports solving Conda packages.
 
+_Update: the library ended up being extracted as a general-purpose dependency solver called [resolvo](https://github.com/mamba-org/resolvo)._
+
 ### What do you mean by dependency resolution?
 
 You have probably seen something like a `Cargo.toml` file, shown below (most package managers have their own custom configuration format, but the idea is the same):
