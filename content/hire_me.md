@@ -4,7 +4,7 @@ title = 'Hire me'
 
 # Hire me
 
-Interested in working together? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a>! Interested in discussing something else? Hit me up anyway :)
+Interested in working together? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a>! Interested in discussing something else? Drop me a line anyway :)
 
 Things I can do for you:
 
@@ -40,7 +40,7 @@ Matthew Quinn, software engineer:
 
 #### Technologies of choice
 
-Given enough time, I am able to get familiar with whatever technology you are using. There is a chance I am already acquainted with your tech stack, since in the past I have worked in the .NET, Java, Rust, Erlang and Node.js ecosystems (and experimented with a few more).
+My strongest stacks are Rust and .NET (C#). I also have work experience in TypeScript, Java, Python, Elixir and C. Given enough time, I'm able to get familiar with whatever technology you are using.
 
 When evaluating new projects, I have a strong preference for statically typed languages, because they align better with my way of thinking. Also, I prefer ecosystems with mature tooling, so I can focus on the essential aspects of the problem (instead of being bogged down by accidental complexity).
 
