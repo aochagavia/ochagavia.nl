@@ -3,10 +3,8 @@ title = 'Home'
 url = "/"
 +++
 
-Hi! I'm Adolfo, a computer scientist with strong technical skills and a deep passion for technology. I [wrote my first program when I was 14]({{< ref "/blog/2022-how-i-got-into-programming.md" >}}) and have been honing my skills daily ever since. During my time at the university, I had the opportunity to get [involved in the development of the Rust programming language]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}). After some years working professionally as an employee, I [became an independent contractor]({{< ref "/blog/2023-becoming-contractor.md" >}}) in 2020.
+Hi! I'm Adolfo, a software engineer living in Amsterdam (The Netherlands). I [was first bitten by the programming bug during my early teens]({{< ref "/blog/2022-how-i-got-into-programming.md" >}}) and, after pursuing a master's degree in Computer Science, ended up turning my passion into my profession.
+
+Along the way, I [helped shape the Rust programming language]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}) and contributed extensively to its open source ecosystem. Nowadays I [offer my services]({{< ref "/hire_me" >}}) in the form of systems programming, boosting open source projects and consulting. <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">Shoot me an email</a> if you'd like to hire me!
 
 Profiles: [GitHub](https://github.com/aochagavia/), [LinkedIn](https://www.linkedin.com/in/adolfoochagavia/), [StackOverflow](https://stackoverflow.com/users/2110623/aochagavia).
-
-#### Contracting and consulting
-
-Check out the [hire me]({{< ref "/hire_me" >}}) page to read about my services, past projects and testimonials.

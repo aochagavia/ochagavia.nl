@@ -4,13 +4,15 @@ title = 'Hire me'
 
 # Hire me
 
-Interested in working together? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a>! Interested in discussing something else? Drop me a line anyway :)
+Interested in working together? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a>! You can also drop me a line about whatever else you have in mind :)
 
-Things I can do for you:
+#### Key areas of expertise
 
-* __Systems programming__. I thrive when a programming challenge involves a technical deep dive. For previous contracts I've [implemented the MySQL wire protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [created container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), [developed a CDCL dependency solver]({{< ref "/blog/2023-magic-dependency-resolution.md" >}}), and more.
-* __Open source development__. I've been involved as a [contributor to the Rust ecosystem since 2014]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}). Nowadays, organizations hire me to boost open source projects: designing, implementing and polishing features that would otherwise be postponed because of limited developer bandwidth. For an example, check out [this article]({{< ref "/blog/2024-continuous-benchmarking-rustls.md" >}}) about a recent contract with [ISRG](https://www.abetterinternet.org/) (makers of [Let's Encrypt](https://letsencrypt.org/)). Other past open source clients were [Prefix.dev](https://prefix.dev/) and [Stormshield](https://www.stormshield.com/).
-* __Consulting__. Next to "hardcore programming", I also help companies develop their technical strategy, distill clear requirements from fuzzy interactions with stakeholders, constructively discuss software architecture improvements, foster team collaboration through agile coaching, and more.
+With a [strong background]({{< ref "/" >}}) in Computer Science, I'm currently offering services in the following areas:
+
+* __Systems programming__. I thrive when a programming challenge involves a technical deep dive. For previous customers I've [implemented the MySQL wire protocol as a library]({{< ref "/blog/2022-mysql-library.md" >}}), [created container images without Dockerfiles]({{< ref "/blog/2023-crafting-oci-images.md" >}}), [developed a CDCL dependency solver]({{< ref "/blog/2023-magic-dependency-resolution.md" >}}), and more.
+* __Boosting open source projects__. I've been a [contributor to the Rust ecosystem since 2014]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}). These days organizations hire me to boost open source projects: designing, implementing and polishing features that would otherwise be postponed because of limited developer bandwidth. For an example, check out [this article]({{< ref "/blog/2024-continuous-benchmarking-rustls.md" >}}) about a recent project for [ISRG](https://www.abetterinternet.org/) (makers of [Let's Encrypt](https://letsencrypt.org/)). Other past customers were [Prefix.dev](https://prefix.dev/) and [Stormshield](https://www.stormshield.com/).
+* __Consulting__. Next to "hardcore programming", I also help companies develop their technical strategy, distill clear requirements from fuzzy interactions with stakeholders, constructively improve software architecture, foster agile team collaboration, and more.
 
 #### Testimonials
 
@@ -42,8 +44,6 @@ Matthew Quinn, software engineer:
 
 My strongest stacks are Rust and .NET (C#). I also have work experience in TypeScript, Java, Python, Elixir and C. Given enough time, I'm able to get familiar with whatever technology you are using.
 
-When evaluating new projects, I have a strong preference for statically typed languages, because they align better with my way of thinking. Also, I prefer ecosystems with mature tooling, so I can focus on the essential aspects of the problem (instead of being bogged down by accidental complexity).
-
 #### Ways of working together
 
 * __Solo__. I am a _very_ intrinsically motivated person, and have a proven track record delivering high-quality work with little guidance. I proactively ask the right questions, and know where to look for answers. I am also able to summarize and explain my findings, in such a way that you can follow my progress without being burdened with the day-to-day minutiae of the project.
@@ -51,9 +51,13 @@ When evaluating new projects, I have a strong preference for statically typed la
 
 #### Practicalities
 
-* __Location__. I am based in Amsterdam and have a preference for remote work (on-site might be possible if your team is in Amsterdam).
-* __Working across time zones__. I have experience collaborating with colleagues in different time zones (US and Europe). This is definitely an option as long as the work is compatible with asynchronous communication.
-* __Working hours__. I am interested in contracts for 3 days a week, 8 hours a day. On a case-by-case basis, 4 days a week might also be possible.
+* __Location__. I am based in Amsterdam and have a preference for remote work.
+* __Working across time zones__. I have experience collaborating with colleagues in different time zones (US and Europe).
+* __Working hours__. I am interested in projects for 3 days a week, 8 hours a day.
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
 * __Company__. I am registered as a one-person company (eenmanszaak) at the Dutch Chamber of Commerce, under number 80893503.
 * __Legal__. I work under <a href="/files/NLdigital Terms - EN.pdf">these terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>). They are required by my insurance, but we might deviate from them if there are good reasons to do so and we agree to limit my liability.
+
+#### Ready for a chat?
+
+If you made it this far, you might want to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">drop me a line</a> to discuss a possible collaboration. I'm looking forward to it!
