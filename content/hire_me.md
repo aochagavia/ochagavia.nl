@@ -53,7 +53,7 @@ My strongest stacks are Rust and .NET (C#). I also have work experience in TypeS
 
 * __Location__. I am based in Amsterdam and have a preference for remote work.
 * __Working across time zones__. I have experience collaborating with colleagues in different time zones (US and Europe).
-* __Working hours__. I am interested in projects for 3 days a week, 8 hours a day.
+* __Working hours__. I am interested in projects for 3 to 4 days a week, 8 hours a day.
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
 * __Company__. I am registered as a one-person company (eenmanszaak) at the Dutch Chamber of Commerce, under number 80893503.
 * __Legal__. I work under <a href="/files/NLdigital Terms - EN.pdf">these terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>). They are required by my insurance, but we might deviate from them if there are good reasons to do so and we agree to limit my liability.
