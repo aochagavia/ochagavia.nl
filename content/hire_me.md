@@ -1,5 +1,6 @@
 +++
 title = 'Hire me'
+outputs = ["html"] # Necessary to avoid including the page in the RSS feed
 +++
 
 # Hire me

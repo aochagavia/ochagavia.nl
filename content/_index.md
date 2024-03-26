@@ -1,6 +1,7 @@
 +++
 title = 'Home'
 url = "/"
+outputs = ["html"] # Necessary to avoid including the page in the RSS feed
 +++
 
 Hi! I'm Adolfo, a software engineer living in Amsterdam (The Netherlands). I [was first bitten by the programming bug during my early teens]({{< ref "/blog/2022-how-i-got-into-programming.md" >}}) and, after pursuing a master's degree in Computer Science, ended up turning my passion into my profession.

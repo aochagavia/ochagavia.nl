@@ -1,5 +1,6 @@
 +++
 title = 'Subscribe'
+outputs = ["html"] # Necessary to avoid including the page in the RSS feed
 +++
 
 # Subscribe
