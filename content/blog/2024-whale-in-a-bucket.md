@@ -1,6 +1,6 @@
 +++
 title = "Waiter, there's a whale in my bucket!"
-date = "2024-06-24"
+date = "2024-07-03"
 +++
 
 For the last four months I've been developing a custom container image builder, collaborating with Outerbounds[^1]. The technical details of the builder itself might be the topic of a future article, but there's something surprising I wanted to share already: you can use [S3](https://en.wikipedia.org/wiki/Amazon_S3) as a container registry! You heard it right. All it takes is to expose an S3 bucket through HTTP and to upload the image's files to specific paths. With that in place, you can actually `docker pull` from it. Isn't that neat?
