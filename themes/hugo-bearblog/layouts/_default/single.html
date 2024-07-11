@@ -1,6 +1,11 @@
 {{ define "main" }}
 {{ if eq .Type "blog" }}{{ if not .Params.menu }}
+{{ if .Params.altTitle }}
+<h1 style="margin-bottom: 0;">{{ .Title }}</h1>
+<i>a.k.a. <b>{{ .Params.altTitle }}</b></i>
+{{ else }}
 <h1>{{ .Title }}</h1>
+{{ end }}
 <p>
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
