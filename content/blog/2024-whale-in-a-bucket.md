@@ -1,7 +1,7 @@
 +++
 title = "Using S3 as a container registry"
 altTitle = "Waiter, there's a whale in my bucket!"
-url = "/blog/waiter-theres-a-whale-in-my-bucket"
+aliases = ['/blog/waiter-theres-a-whale-in-my-bucket']
 date = "2024-07-03"
 +++
 
