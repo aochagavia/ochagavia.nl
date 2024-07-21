@@ -81,9 +81,13 @@ Note that, while I haven't made a survey of the container registry offerings out
 
 Don't let these caveats discourage you, though. If it all works as well as I'm hoping, maybe we'll see a new trend of hosting public container images in Cloudflare's R2! What would you say to free egress?
 
-##### PS. What about the whale?
+##### PS 1 - What about the whale?
 
 It's a pun... [go have a look](https://www.google.com/search?q=docker+logo&hl=en) at the docker logo 😉
+
+##### PS 2 - Discussion
+
+This article was extensively [discussed on Hacker News](https://ochagavia.nl/blog/using-s3-as-a-container-registry/), yielding a few additional insights that you might want to check out.
 
 \
 \
