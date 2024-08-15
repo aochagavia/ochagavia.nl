@@ -87,7 +87,7 @@ It's a pun... [go have a look](https://www.google.com/search?q=docker+logo&hl=en
 
 ##### PS 2 - Discussion
 
-This article was extensively [discussed on Hacker News](https://ochagavia.nl/blog/using-s3-as-a-container-registry/), yielding a few additional insights that you might want to check out.
+This article was extensively [discussed on Hacker News](https://news.ycombinator.com/item?id=40942732), yielding a few additional insights that you might want to check out.
 
 \
 \
