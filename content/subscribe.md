@@ -4,7 +4,7 @@ title = 'Subscribe'
 
 # Subscribe
 
-You can subscribe to upcoming posts through [RSS](/blog/index.xml) or email (see below).
+Subscribe anonymously through [RSS](/blog/index.xml), or leave your email below:
 
 <iframe
 scrolling="no"

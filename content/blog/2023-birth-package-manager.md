@@ -171,7 +171,7 @@ stay around for a few months to improve the library some more. I'll make sure to
 there is more to tell!
 
 In the meantime, if you have any comments, suggestions, ideas, etc. you want to share, feel free to
-contact me (details are in the [Hire me]({{< ref "/hire_me" >}}) page). You can also
+contact me (details are in the [Consulting]({{< ref "/consulting" >}}) page). You can also
 [discuss](https://news.ycombinator.com/item?id=35182791) on HN.
 
 #### Bonus track: testing-related crates

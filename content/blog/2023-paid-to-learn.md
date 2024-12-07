@@ -83,7 +83,7 @@ Here they are, in case you are interested:
 
 _Discuss on [HN](https://news.ycombinator.com/item?id=36114797)_.
 
-_Interested in working together? Check out the [Hire me]({{< ref "/hire_me" >}}) page and get in
+_Interested in working together? Check out the [Consulting]({{< ref "/consulting" >}}) page and get in
 touch!_
 
 [^1]: Are you by any chance following my blog? Reach out to let me know! I'd love to hear from
