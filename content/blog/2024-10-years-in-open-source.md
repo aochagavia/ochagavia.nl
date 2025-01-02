@@ -11,10 +11,8 @@ While reading the code for the `Option<T>` type, I stumbled upon [a few lines](h
 
 How could I describe my feelings at that moment? It seemed incredible that professional developers had taken me seriously, and that my code had become part of a real-world programming language! That motivated me to repeat the experience, submitting more pull requests throughout the years, but that's a story I have [already told elsewhere]({{< ref "/blog/2022-how-i-got-involved-in-rust.md" >}}).
 
-As I mentioned at the beginning, getting involved in the Rust community had a considerable impact on me as a soon-to-become software engineer. It taught me not to be afraid of reading real-world source code, to be demanding yet friendly when doing code reviews, to see compilers as programs instead of black magic. It motivated me to share more of my own code with the world, to engage with random people from the internet who [came up with improvements](https://github.com/aochagavia/rocket/pulls?q=is%3Apr+is%3Aclosed), to go out of my way to fix small things in the open source projects I use. It even planted the seeds of a switch from full-stack development to systems programming later in my professional life... but that's something for a future post[^1].
+As I mentioned at the beginning, getting involved in the Rust community had a considerable impact on me as a soon-to-become software engineer. It taught me not to be afraid of reading real-world source code, to be demanding yet friendly when doing code reviews, to see compilers as programs instead of black magic. It motivated me to share more of my own code with the world, to engage with random people from the internet who [came up with improvements](https://github.com/aochagavia/rocket/pulls?q=is%3Apr+is%3Aclosed), to go out of my way to fix small things in the open source projects I use. It even planted the seeds of a switch from full-stack development to systems programming later in my professional life... but that's something for a future post.
 
 The moral of the story? There is no ~~spoon~~ moral of the story. I'm just thankful for last 10 years and the kindness that made it possible. Now I'm looking forward to the next 10.
 
 That's all, and it's a lot!
-
-[^1]: Feel free to [subscribe]({{< ref "/subscribe" >}}), if that's your thing.

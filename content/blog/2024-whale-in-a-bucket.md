@@ -89,10 +89,6 @@ It's a pun... [go have a look](https://www.google.com/search?q=docker+logo&hl=en
 
 This article was extensively [discussed on Hacker News](https://news.ycombinator.com/item?id=40942732), yielding a few additional insights that you might want to check out.
 
-\
-\
-_If you liked this article, feel free to check out [past blog posts]({{< ref "/blog" >}}) or to [subscribe]({{< ref "/subscribe" >}})_.
-
 [^1]: [Outerbounds](https://outerbounds.com/) is a company founded by Netflix veterans to help data scientists and ML engineers have a smoother development process through [better infrastructure](https://docs.metaflow.org/).
 [^2]: If you are interested in reproducing the experiment, bear in mind that we are running the code on AWS which is internally connected to S3 and ECR through a VPC (i.e. the traffic doesn't go through the public internet). This gets us the best possible latency and bandwidth.
 [^3]: See my [download accelerator]({{< ref "/blog/2024-download-accelerator.md" >}}) article if you want to go down that rabbit hole, or the "S3 is fast" section of [this blog post](https://outerbounds.com/blog/metaflow-fast-data/#s3-is-fast-when-used-correctly).
