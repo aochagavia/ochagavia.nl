@@ -66,7 +66,7 @@ Do you dare go down the rabbit hole and write the missing implementation for the
 
 ## 2. Background knowledge
 
-If you are feeling adventurous you may stop reading now, roll up your sleeves and start coding. Once you are done, please let me know how it went! I'd love to write a follow-up article about the different approaches people came up with.
+If you are feeling adventurous you may stop reading now, roll up your sleeves and start coding. Once you are done, please [let me know](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;) how it went! I'd love to write a follow-up article about the different approaches people came up with.
 
 ...
 
@@ -138,7 +138,7 @@ Finally, there are lots of concepts I didn't go into here, but which you will in
 
 ## 3. Parting words
 
-I'm planning to write a follow-up article about approaches that people come up with to solve this challenge, so please let me know how things go! As for my own implementation, I already have a draft blog post about it. [Stay tuned]({{< ref "/subscribe" >}}) if you want to hear later how things panned out.
+I'm planning to write a follow-up article about approaches that people come up with to solve this challenge, so please [let me know](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;) how things go! As for my own implementation, I already have a draft blog post about it. [Stay tuned]({{< ref "/subscribe" >}}) if you want to hear later how things panned out.
 
 Happy hacking!
 
