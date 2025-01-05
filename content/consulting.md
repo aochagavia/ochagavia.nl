@@ -3,7 +3,26 @@ title = 'Consulting'
 aliases = ['/hire_me']
 +++
 
+<style>
+#headshot {
+    width: 140px;
+    height: 150px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+@media (min-width: 600px) {
+    #headshot {
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+</style>
+
 # Consulting
+
+<img src="/images/headshot-light.jpg" alt="Adolfo Ochagavia" id="headshot">
 
 Interested in working together or just having an informal chat? Hit me up at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;">&#97;&#100;&#111;&#108;&#102;&#111;&#64;&#111;&#99;&#104;&#97;&#103;&#97;&#118;&#105;&#97;&#46;&#110;&#108;</a> any time.
 
