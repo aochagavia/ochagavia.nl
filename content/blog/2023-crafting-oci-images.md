@@ -430,5 +430,5 @@ final code I wrote that might pique your interest:
   end for the sake brevity.
 
 That's all, folks! And if you have any comments, suggestions, ideas, etc. you want to share, feel
-free to contact me (details are in the [Consulting]({{< ref "/consulting" >}}) page) or to
+free to contact me (details are in the [Consulting]({{< ref "/_index.md" >}}) page) or to
 [discuss](https://news.ycombinator.com/item?id=34678121) on HN.

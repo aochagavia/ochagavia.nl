@@ -134,7 +134,7 @@ working together with the Quinn maintainers was an experience I'd love to repeat
 
 _Discuss on [HN](https://news.ycombinator.com/item?id=35913485)_.
 
-_Interested in working together? Check out the [Consulting]({{< ref "/consulting" >}}) page and get in
+_Interested in working together? Check out the [Consulting]({{< ref "/_index.md" >}}) page and get in
 touch!_
 
 [^1]: I implemented the DPLPMTUD feature described in [RFC

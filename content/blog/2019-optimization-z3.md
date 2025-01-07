@@ -260,4 +260,4 @@ methods. Would the Gurobi solver be able to find an optimal solution in normal t
 What about randomized approaches like simulated annealing? Unfortunately, my time is
 limited and I feel I have already devoted too much time to this.
 If you somehow get inspired to continue where I left off, please let me know! You can
-find my email [here]({{< ref "/consulting" >}}).
+find my email [here]({{< ref "/_index.md" >}}).

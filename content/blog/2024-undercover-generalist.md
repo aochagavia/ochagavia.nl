@@ -64,7 +64,7 @@ Hit me up [through email](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#1
 
 #### Bonus 1: my approach over time
 
-If you look at the [git history](https://github.com/aochagavia/ochagavia.nl/commits/0c14f6afa004b6bcb366705768015b37561b9a71/content/hire_me.md) of the "hire me" (_update_: now [consulting]({{< ref "/consulting" >}})) page of this blog, you can see it has been morphing into different shapes ever since it was created. This reflects the evolution in my thinking about how to present my services to the world.
+If you look at the [git history](https://github.com/aochagavia/ochagavia.nl/commits/0c14f6afa004b6bcb366705768015b37561b9a71/content/hire_me.md) of the "hire me" (_update_: now [consulting]({{< ref "/_index.md" >}})) page of this blog, you can see it has been morphing into different shapes ever since it was created. This reflects the evolution in my thinking about how to present my services to the world.
 
 Since the very beginning, the "hire me" page starts with a bullet list of "things I can do for you". The list, however, has changed substantially in the meantime. The [original version](https://github.com/aochagavia/ochagavia.nl/blob/abb186d4630f585cfa81ee2d65a89aa042cf4435/content/hire_me.md) covered pretty much every possible service, including "bizarre ideas like giving a workshop about Plato and programming" (this is an actual quote from the page, check it out if you are curious about the context). The [current version](https://github.com/aochagavia/ochagavia.nl/blob/0c14f6afa004b6bcb366705768015b37561b9a71/content/hire_me.md) (as of this writing) consists of only 3 bullet points and is much more focused.
 
