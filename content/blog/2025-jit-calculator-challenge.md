@@ -142,7 +142,7 @@ I'm planning to write a follow-up article about approaches that people come up w
 
 Happy hacking!
 
-__Update (22 February 2025)__: and [here's]({{< ref "/blog/2025-jit-calculator-challenge.md" >}}) the follow-up article!
+__Update (22 February 2025)__: and [here's]({{< ref "/blog/2025-jit-calculator-challenge-2.md" >}}) the follow-up article!
 
 [^1]: I'm simplifying things a bit here. In reality, some code is interpreted and some code goes through the JIT. See [this Stack Exchange question](https://softwareengineering.stackexchange.com/q/291230) for more details. Note that the question is about 10 years old, so maybe some implementation details have changed since the answers were posted (the core ideas are still relevant, though).
 [^2]: It's idiomatic Rust to omit the `return` keyword at the end of a function.
