@@ -294,7 +294,7 @@ It is said that _any sufficiently advanced technology is indistinguishable from 
 
 ##### Further reading
 
-- The next article in this series, in which some solutions use libraries such as [cranelift](https://cranelift.dev/) to generate code (which is much easier than writing machine code by hand, but then there's more magic).
+- The [next article]({{< ref "/blog/2025-jit-calculator-challenge-3.md" >}}) in this series, in which some solutions use libraries such as [cranelift](https://cranelift.dev/) to generate code (which is much easier than writing machine code by hand, but then there's more magic).
 - The [adventures in JIT compilation](https://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-1-an-interpreter/) blog series.
 - [Crafting interpreters](https://craftinginterpreters.com/). Note that it doesn't go into JIT compilation, but it's an excellent resource if you are interested in creating programming languages.
 
