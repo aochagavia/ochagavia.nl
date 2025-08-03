@@ -63,18 +63,18 @@ Matthew Quinn, software engineer:
 
 #### Technologies of choice
 
-My strongest stacks are Rust and .NET (C#). I also have work experience in TypeScript, Go, Java, Python, Elixir and C. Given enough time, I'm able to get familiar with whatever technology you are using.
+My strongest stacks are Rust and .NET (C#). I also have work experience in TypeScript, Go, Java, Kotlin, Python, Elixir and C. Given enough time, I'm able to get familiar with whatever technology you are using.
 
 #### Ways of working together
 
-* __Solo__. I am a _very_ intrinsically motivated person, and have a proven track record delivering high-quality work with little guidance. I proactively ask the right questions to clarify assumptions and goals, and I research my way forward through any obstacles that might appear. I am also able to summarize and explain a project's progress in such a way that you can follow along without being burdened with day-to-day minutiae.
+* __Solo__. I am a _very_ intrinsically motivated person, and have a proven track record delivering high-quality results with little guidance. I proactively ask the right questions to clarify assumptions and goals, and I research my way forward through any obstacles that might appear. I am also able to summarize and explain a project's progress in such a way that you can follow along without being burdened with day-to-day minutiae.
 * __Team__. Peers see me as a highly talented and pleasant team member (see [testimonials](#testimonials) above). My technical skills are accompanied by the capacity to effectively collaborate with others: I feel comfortable mentoring junior programmers, solving architectural challenges with experienced developers, interfacing with business stakeholders, and more. If you are looking to boost your team, I'd be happy to be on board.
 
 #### Practicalities
 
-* __Location__. I am based in Amsterdam and have a preference for remote work.
+* __Location__. I am currently based in Santiago (Chile) and have a preference for remote work.
 * __Working across time zones__. I have experience collaborating with colleagues in different time zones (mainly US and Europe).
-* __Working hours__. I am interested in projects for 3 to 4 days a week, 8 hours a day.
+* __Working hours__. I am interested in projects for 1 to 3 days a week, 8 hours a day.
 * __Languages__. I am fully proficient in English, Dutch and Spanish.
 * __Company__. I am registered as a one-person company (eenmanszaak) at the Dutch Chamber of Commerce, under number 80893503.
 * __Legal__. I work under <a href="/files/NLdigital Terms - EN.pdf">these terms and conditions</a> (also available in <a href="/files/NLdigital Voorwaarden - NL.pdf">Dutch</a>).
