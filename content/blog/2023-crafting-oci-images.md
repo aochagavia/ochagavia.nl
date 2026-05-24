@@ -1,6 +1,7 @@
 +++
 title = "Crafting container images without Dockerfiles"
 date = "2023-02-06"
+tags = ["containers"]
 +++
 
 Last month I have been developing a Rust tool to create container images from [Conda

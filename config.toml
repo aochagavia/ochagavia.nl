@@ -10,10 +10,6 @@ pluralizeListTitles = false
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
-
 # unsafe = true allows using HTML in markdown
 [markup]
 [markup.goldmark]
