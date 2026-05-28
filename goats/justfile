@@ -1,0 +1,7 @@
+get-goatcounter:
+    curl -s https://api.github.com/repos/arp242/goatcounter/releases/latest | grep -o '"tag_name": "[^"]*' | cut -d'"' -f4 | xargs -I {} sh -c 'mkdir -p artifacts && curl -sL "https://github.com/arp242/goatcounter/releases/download/{}/goatcounter-{}-linux-amd64.gz" | gunzip > artifacts/goatcounter'
+    chmod +x artifacts/goatcounter
+
+deploy:
+    vade deploy goats
+    pyinfra -y --user operator goats.ochagavia.nl vadegen/execute.py

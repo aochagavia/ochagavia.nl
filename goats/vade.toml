@@ -1,0 +1,15 @@
+[artifacts]
+path = "artifacts"
+
+[caddyfile.template]
+built-in = "reverse-proxy"
+vars = {
+  domains = ["goats.ochagavia.nl"]
+}
+
+[[systemd-unit]]
+[systemd-unit.template]
+built-in = "webapp.service"
+vars = {
+  exec_start = "{{ vade.app.paths.artifacts }}/goatcounter serve -listen :{{ port('main') }}"
+}
