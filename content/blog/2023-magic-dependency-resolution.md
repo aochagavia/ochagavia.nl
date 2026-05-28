@@ -1,6 +1,8 @@
 +++
 title = "The magic of dependency resolution"
 date = "2023-07-04"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=36682961"
 +++
 
 Dependency resolution is something programmers usually take for granted. Be it `cargo`, `npm`, or whatever package manager you use, no one is actually surprised when this black-box figures out, all by itself, the specific set of packages that should be installed.

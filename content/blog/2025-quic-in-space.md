@@ -1,6 +1,8 @@
 +++
 title = "Towards interplanetary QUIC traffic"
 date = "2025-11-17"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=45956438"
 +++
 
 Have you ever asked yourself which protocols get used when downloading pictures from the [Perseverance Mars rover](https://en.wikipedia.org/wiki/Perseverance_(rover)) to Earth? I hadn't thought about that either, until I came across an intriguing message on the internet, back in April 2024:

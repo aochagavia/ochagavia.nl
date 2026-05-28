@@ -12,14 +12,12 @@
       {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
     </time>
   </i>
+  {{ if .Params.hn }}
+  <br><i>Discussed on <a href="{{ .Params.hn }}">Hacker News</a></i>
+  {{ end }}
 </p>
 {{ end }}{{ end }}
 <content>
   {{ .Content }}
 </content>
-<p>
-  {{ range (.GetTerms "tags") }}
-  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-  {{ end }}
-</p>
 {{ end }}

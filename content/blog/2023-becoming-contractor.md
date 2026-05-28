@@ -1,6 +1,8 @@
 +++
 title = "Becoming a contractor"
 date = "2023-09-01"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=37348079"
 +++
 
 How many roads must a programmer walk down before you call them a contractor? It's been about three years since I went down this (bumpy) path, and I finally have the feeling that my contracting business is "bootstrapped"[^1]. Here's an account of my journey so far, hoping you find it inspiring!

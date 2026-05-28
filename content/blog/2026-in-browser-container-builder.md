@@ -1,7 +1,8 @@
 +++
 title = "Fully in-browser container builds"
 date = "2026-05-24"
-tags = ["containers"]
+tags = ["containers", "HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=48266323"
 +++
 
 Containers are fun. The ecosystem is incredibly open, with the internals right there for anyone to explore. Once you wrap your head around the [specifications](https://github.com/opencontainers), you unlock the power to build custom tools and may even discover unexpected use cases[^unexpected]. Speaking of "unexpected use cases", today I have a demo to share: a web application that builds containers right in your browser, relying only on client-side code.

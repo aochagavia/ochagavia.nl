@@ -1,6 +1,8 @@
 +++
 title = "From full-stack development to systems programming"
 date = "2024-03-25"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=39817026"
 +++
 
 Back when I was pursuing my Computer Science degree, one of the big questions that kept me busy was: what am I going to do after I graduate? I felt like I could work on pretty much anything, thanks to the solid foundations I received at the university and to my real-world experience contributing to Rust. So... what to choose?
@@ -42,8 +44,6 @@ Socializing based on personal interest feels much more in line with my character
 #### Bonus: are you a specialist?
 
 Recently my post on [the undercover generalist]({{< ref "/blog/2024-undercover-generalist.md" >}}) went viral. My thesis was that, even if you are a generalist, it sometimes makes sense to present yourself as a specialist (for marketing reasons). In the same article I referred to myself as an undercover generalist, but after writing this blog post, I'm not that sure anymore! Nowadays I really want to focus on systems programming... which makes me feel like a specialist. Interestingly, [someone wrote](https://gusvanhorn.blogspot.com/2024/02/marketing-isnt-only-reason-to-specialize.html) in response to "the undercover generalist" saying that _"Specialization isn't just a way to market. It's part of becoming a generalist, which has to start with one or more specific areas of expertise."_ Does that make me a generalist _and_ a specialist? I guess time will tell.
-
-_Comment on [HN](https://news.ycombinator.com/item?id=39817026)._
 
 [^1]: One of the phrases you saw on company t-shirts was: "Wij zijn keiharde nerds", which you could translate as "We're hard-core nerds".
 [^2]: A special shout-out to [Jeroen Heijmans](https://github.com/jeroenheijmans/), who was my team lead during those years. I couldn't have wished for a better person to work with at the start of my career!

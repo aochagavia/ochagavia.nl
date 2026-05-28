@@ -1,6 +1,8 @@
 +++
 title = "Rocket - A Rust game running on WASM"
 date = "2017-12-03"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=15843064"
 +++
 
 Two weeks ago, Alex Crichton's [PR][wasm32-rust-pr] adding a target for
@@ -271,17 +273,11 @@ with almost no modifications to the game logic code. In the end, I ended up
 spending most of the time dealing with rendering and figuring out how to correctly
 set up the integration between Javascript and Rust.
 
-# Discussion
-
-Comment on [reddit] or [HN]!
-
 [wasm32-rust-pr]: https://github.com/rust-lang/rust/pull/45905
 [hellorust]: https://www.hellorust.com
 [draw-rocket-piston]: https://github.com/aochagavia/rocket/blob/c13232b074da14662cc24ee075f7ef66521e5d27/src/view.rs#L31-L45
 [input-rocket-piston]: https://github.com/aochagavia/rocket/blob/c13232b074da14662cc24ee075f7ef66521e5d27/src/controllers/input.rs#L39-L47
 [update-rocket-piston]: https://github.com/aochagavia/rocket/blob/c13232b074da14662cc24ee075f7ef66521e5d27/src/main.rs#L71-L74
 [rand-pr]: https://github.com/rust-lang-nursery/rand/pull/197
-[reddit]: https://www.reddit.com/r/rust/comments/7ha3gj/rocket_a_rust_game_running_on_wasm/
-[HN]: https://news.ycombinator.com/item?id=15843064
 [rocket-piston]: https://github.com/aochagavia/rocket
 [rocket-wasm]: https://github.com/aochagavia/rocket_wasm

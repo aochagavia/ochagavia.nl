@@ -1,6 +1,8 @@
 +++
 title = "The undercover generalist"
 date = "2024-02-01"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=39213809"
 +++
 
 Since starting out as an independent contractor, I've always felt a tension between being a generalist software engineer, yet having to market myself as a specialist. I've been wanting to write about it for years and even have kept some notes for that purpose. Recently I came across an [article](https://social.clawhammer.net/blog/posts/2024-01-19-CultureChange/) by [Ben Collins-Sussman](https://www.red-bean.com/sussman), which gave me the last bit of inspiration I needed, even though his article only indirectly touches on the topic.

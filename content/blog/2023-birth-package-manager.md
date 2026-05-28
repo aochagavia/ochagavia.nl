@@ -1,6 +1,8 @@
 +++
 title = "The birth of a package manager"
 date = "2023-03-16"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=35182791"
 +++
 
 Since my time at the university, pursuing a Computer Science degree, I have always been fascinated
@@ -169,10 +171,6 @@ As to myself, this week I started working on my next engagement, sponsored by
 PR](https://github.com/quinn-rs/quinn/pull/804) as a first step, and if everything goes well will
 stay around for a few months to improve the library some more. I'll make sure to write about it when
 there is more to tell!
-
-In the meantime, if you have any comments, suggestions, ideas, etc. you want to share, feel free to
-contact me (details are in the [Consulting]({{< ref "/_index.md" >}}) page). You can also
-[discuss](https://news.ycombinator.com/item?id=35182791) on HN.
 
 #### Bonus track: testing-related crates
 

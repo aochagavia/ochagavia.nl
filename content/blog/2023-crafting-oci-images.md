@@ -1,7 +1,8 @@
 +++
 title = "Crafting container images without Dockerfiles"
 date = "2023-02-06"
-tags = ["containers"]
+tags = ["containers", "HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=34678121"
 +++
 
 Last month I have been developing a Rust tool to create container images from [Conda
@@ -430,6 +431,4 @@ final code I wrote that might pique your interest:
   subsection of this article to that bug, as a sort of hunting trophy, but I have omitted it in the
   end for the sake brevity.
 
-That's all, folks! And if you have any comments, suggestions, ideas, etc. you want to share, feel
-free to contact me (details are in the [Consulting]({{< ref "/_index.md" >}}) page) or to
-[discuss](https://news.ycombinator.com/item?id=34678121) on HN.
+That's all, folks!

@@ -1,6 +1,8 @@
 +++
 title = "Fix your tools"
 date = "2026-02-21"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=47112174"
 +++
 
 Last week I had to diagnose a bug in an [open source library](https://github.com/aochagavia/krossover) I maintain. The issue was gnarly enough that I couldn't find it right away, but then I thought: if I set a breakpoint _here_ and fire up the debugger, I will likely find the root cause very soon... and then proceed to mercilessly destroy it!

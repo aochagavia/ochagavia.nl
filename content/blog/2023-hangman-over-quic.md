@@ -132,11 +132,6 @@ From the perspective of a user, the protocol feels like a powerful tool that I m
 future, instead of defaulting to TCP. From the perspective of an implementer, studying the RFCs and
 working together with the Quinn maintainers was an experience I'd love to repeat!
 
-_Discuss on [HN](https://news.ycombinator.com/item?id=35913485)_.
-
-_Interested in working together? Check out the [Consulting]({{< ref "/_index.md" >}}) page and get in
-touch!_
-
 [^1]: I implemented the DPLPMTUD feature described in [RFC
     9000](https://www.rfc-editor.org/rfc/rfc9000.html#name-datagram-packetization-laye), and the ACK
     Frequency proposal described in [this QUIC WG

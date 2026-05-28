@@ -1,6 +1,8 @@
 +++
 title = "How I got involved in the Rust community"
 date = "2022-12-09"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=33925049"
 +++
 
 In 2013 I started my Computer Science degree at Utrecht University (The Netherlands). Due to my previous experience with programming, and because I was genuinely interested in the course subjects, I aced my first year and even had time to investigate additional topics I found interesting. When my friend [Jouke Waleson](https://blog.waleson.com/) told me about the existence of [Hacker News](https://news.ycombinator.com/), I quickly became a daily visitor, as it seemed to me like an endless source of programming knowledge.
@@ -20,5 +22,3 @@ After finishing my master's degree, I spent two years working at [Infi](https://
 While all the aforementioned things happened behind a screen, I also got to meet people in real life. Ruud van Asseldonk (author of the [claxon](https://github.com/ruuda/claxon) and [hound](https://github.com/ruuda/hound) audio decoding libraries) happened to be pursuing the same master's degree as myself, so we teamed up to organize a few Rust meetups. It must have been at a meetup too that I met Dirkjan Ochtman (known for [Askama](https://github.com/djc/askama) and other libraries), and we have kept in touch since then. I also talked to the folks at [Tweede golf](https://tweedegolf.nl/nl), back when they were evaluating Rust, and who became successful early adopters (they were eventually tasked by ISRG, the makers of Let's Encrypt, to write an NTP client and server in Rust, and are now working on NTS).
 
 What happened then? I got sidetracked by other work, and haven't contributed again with significant portions of code. I would gladly make a comeback, but I am no longer a student and I need to prioritize work that is interesting _and_ pays my bills (speaking of interesting work, for my current contract I'm working in Elixir, which was on my programming languages bucket list for a long time). Will I ever get a contract to work on open source Rust projects? Maybe. Recently, a company asked me if I could contribute to some open source Rust projects they rely upon, so if we strike a deal you might see my name again in pull requests ;)
-
-_[Discuss](https://news.ycombinator.com/item?id=33925049) on Hacker News_

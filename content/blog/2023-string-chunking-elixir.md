@@ -1,6 +1,8 @@
 +++
 title = "Chunking strings in Elixir: how difficult can it be?"
 date = "2023-01-04"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=34246498"
 +++
 
 This week I finished my contract for Seamly[^1], where I spent 7 months developing a SaaS messaging

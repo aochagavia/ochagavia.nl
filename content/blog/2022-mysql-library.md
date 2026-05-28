@@ -1,6 +1,8 @@
 +++
 title = "Implementing the MySQL server protocol for fun and profit"
 date = "2022-12-20"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=34094471"
 +++
 
 In December 2021, a company from San Francisco asked me to port a Rust library to Java. The task

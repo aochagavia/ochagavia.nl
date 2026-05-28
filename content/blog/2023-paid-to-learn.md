@@ -81,11 +81,6 @@ Here they are, in case you are interested:
   received packets (currently an [IETF
   draft](https://datatracker.ietf.org/doc/html/draft-ietf-quic-ack-frequency)).
 
-_Discuss on [HN](https://news.ycombinator.com/item?id=36114797)_.
-
-_Interested in working together? Check out the [Consulting]({{< ref "/_index.md" >}}) page and get in
-touch!_
-
 [^1]: Are you by any chance following my blog? Reach out to let me know! I'd love to hear from
     people who genuinely enjoy the articles ;)
 [^2]: My work was generously sponsored by [Stormshield](https://www.stormshield.com/), who regularly

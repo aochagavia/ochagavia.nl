@@ -1,6 +1,8 @@
 +++
 title = "Chasing a bug in a SAT solver"
 date = "2024-02-13"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=40725568"
 +++
 
 Recently I spent two weeks collaborating with [Prefix.dev](https://prefix.dev/) to further develop [resolvo](https://github.com/mamba-org/resolvo), their [SAT-based dependency solver](https://ochagavia.nl/blog/the-magic-of-dependency-resolution/). The main goal was to fix [a nasty bug](https://github.com/mamba-org/resolvo/issues/13), where the solver unexpectedly panicked upon hitting code that was supposed to be unreachable. "That will make for a good war story!", I thought, so I kept notes of my debugging process to serve as a basis for this article.
