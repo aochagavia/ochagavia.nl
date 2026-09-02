@@ -1,6 +1,8 @@
 +++
 title = "That time when I failed the Microsoft interview"
 date = "2026-07-28"
+tags = ["HN frontpagers"]
+hn = "https://news.ycombinator.com/item?id=49095386"
 +++
 
 The year was 2015, halfway through my Computer Science bachelor's degree. I had spent a few months contributing to open source and my confidence levels were high, so I thought: why not aim for a summer internship at Microsoft?
