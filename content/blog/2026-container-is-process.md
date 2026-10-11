@@ -1,6 +1,7 @@
 +++
 title = "A container is just a process"
 date = "2026-10-02"
+tags = ["containers"]
 +++
 
 If you are a regular reader of this blog, you know I've been hacking on container technology for a while now. A common misconception you see in the wild is that people conflate containers and virtual machines, thinking they are equivalent. This blog post illustrates how containerized applications are actually plain processes that run natively on your Linux machine[^linux].
