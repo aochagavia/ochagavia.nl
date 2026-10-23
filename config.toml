@@ -1,6 +1,6 @@
 theme = "hugo-bearblog"
 baseURL = 'https://ochagavia.nl/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Adolfo Ochagavía"
 author = "Adolfo Ochagavía"
 
